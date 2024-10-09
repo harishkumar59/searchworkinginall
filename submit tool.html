@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI tools Directory</title>
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <!-- <link rel="stylesheet" href="submit tool.css"> -->
+    <link rel="stylesheet" href="yes.css"> 
+    <!-- Firebase SDKs -->
+    <!-- <script src="https://www.gstatic.com/firebasejs/9.17.1/firebase-app.js"></script> -->
+    <!-- <script src="https://www.gstatic.com/firebasejs/9.17.1/firebase-firestore.js"></script> -->
+    <!-- Your Firebase configuration -->
+    <!-- <script type="module" src="firebase-config.js"></script> -->
+    <!-- Your form submission handler -->
+    <!-- <script type="module" src="submit.js"></script> -->
+   
+    
+
+</head>
+<body class="gradient-background">
+    <!-- Navigation bar -->
+    <nav class="nav">
+        <div class="container nav-content">
+            <div class="logo">
+                <img src="/placeholder.svg?height=32&width=32" alt="Logo">
+                <span>AI Directory</span>
+            </div>
+             <div class="nav-links">
+                <a href="/" class="active">Home</a>
+               
+                <a href="/New folder/Recent release.html">Recent Release</a>
+                <a href="/New folder/Leading Companies.html">Leading Companies</a>
+                <a href="submit tool.html">Submit your tools</a>
+
+            </div>
+            <!-- <div class="nav-right"> -->
+                <!-- <input type="search" placeholder="Quick search..." aria-label="Quick search"> -->
+                <!-- <button class="menu-button" aria-label="Toggle menu">☰</button> -->
+            <!-- </div> -->
+        </div>
+    </nav>
+    <!-- Mobile menu (hidden by default) -->
+    <div class="mobile-menu">
+        <a href="/" class="active">Home</a>
+        <a href="/categories.html">Categories</a>
+        <a href="/about.html">About</a>
+        <a href="/contact.html">Contact</a>
+        <div class="mobile-search">
+            <input type="search" placeholder="Search AI websites..." aria-label="Search">
+        </div>
+    </div>
+
+    <!-- <main class="container"> -->
+        <!-- Header section -->
+        <!-- <header>
+            <h1>AI tools Directory</h1>
+            <p class="subtitle">Discover the best AI resources and tools</p>
+        </header> -->
+
+        <!-- Search input -->
+        <!-- <div class="search-container">
+            <span class="search-icon">🔍</span>
+            <input type="search" id="searchInput" placeholder="Search AI websites...">
+        </div> -->
+       
+       
+    <!-- </main> -->
+ <main class="container ">
+    <form id="submit-tool-form">
+        <label for="toolName">Tool Name:</label>
+        <input type="text" id="toolName" name="toolName" required><br>
+      
+        <label for="category">Category:</label>
+        <select id="category" name="category">
+          <option value="programmers">Education</option>
+          <option value="writing">programmers</option>
+          <option value="photo">Writing</option>
+          <option value="photo">YouTube</option>
+          <option value="photo">Video</option>
+          <option value="photo">Photo</option>
+          <option value="photo">Music</option>
+          <option value="photo">Go crazy</option>
+          
+          <!-- Add other categories -->
+        </select><br>
+      
+        <label for="websiteUrl">Website URL:</label>
+        <input type="url" id="websiteUrl" name="websiteUrl" required><br>
+      
+        <label for="shortDescription">Short Description:</label>
+        <textarea id="shortDescription" name="shortDescription" required></textarea><br>
+      
+        <label for="longDescription">Long Description:</label>
+        <textarea id="longDescription" name="longDescription"></textarea><br>
+      
+        <label for="pricingModel">Pricing Model:</label>
+        <select id="pricingModel" name="pricingModel">
+          <option value="free">Free</option>
+          <option value="paid">Paid</option>
+          <option value="freemium">Freemium</option>
+        </select><br>
+      
+        <!-- <label for="toolLogo">Tool Logo:</label>
+        <input type="file" id="toolLogo" name="toolLogo" accept="image/*" required><br> -->
+      
+        <label for="tags">Tags/Keywords:</label>
+        <input type="text" id="tags" name="tags" placeholder="e.g. AI, writing, image"><br>
+      
+        <label for="contactEmail">Contact Email:</label>
+        <input type="email" id="contactEmail" name="contactEmail" required><br>
+      
+        <!-- <label for="terms">
+          <input type="checkbox" id="terms" name="terms" required> I agree to the terms of submission
+        </label><br> -->
+      
+        <button type="submit">Submit Tool</button>
+      </form>
+          </main>
+
+    <!-- Vertical Navigation Bar -->
+    <nav class="vertical-nav">
+        <h2>Most Popular AI Tools Category</h2>
+        <ul>
+            <li><a href="New folder/education.html"><img src="education.png" alt="Education Icon" height="40" width="40">Education</a></li>
+            <li><a href="New folder/programmers.html"><img src="programmers.png" alt="Programmers Icon">Programmers</a></li>
+            <li><a href="New folder/writing.html"><img src="writing.png" alt="Writing Icon">Writing</a></li>
+            <li><a href="New folder/youtube.html"><img src="youtube.png" alt="YouTube Icon">YouTube</a></li>
+            <li><a href="New folder/video.html"><img src="video.png" alt="Video Icon">Video</a></li>
+            <li><a href="New folder/photo.html"><img src="photo.png" alt="Photo Icon">Photo</a></li>
+            <li><a href="New folder/music.html"><img src="music.png" alt="Music Icon">Music</a></li>
+            <li><a href="New folder/go crazy.html"><img src="go-crazy.png" alt="Go Crazy Icon">Go Crazy</a></li>
+        </ul>
+    </nav>
+
+
+    <!-- <hr> -->
+    <footer>
+        <div class="container">
+            © 2023 AI Websites Directory. All rights reserved.
+        </div>
+    </footer>
+   
+ 
+    
+
+    <script type="module" src="submit form .js"></script>
+<!-- <script src="firebase-config.js"></script>
+<script src="sub"></script> -->
+
+
+
+    
+        
+    
+</body>
+</html>
